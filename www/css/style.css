@@ -2,7 +2,7 @@
 position:fixed;
 width:100%;
 left:0;right:0;top:0;bottom:0;
-background-color: #9370DB;
+background-color: #3f7f9b;
 z-index:9999;
 display:none;
 }
@@ -24,23 +24,27 @@ position:absolute;
 left:48%;top:40%;
 width:40px;height:40px;
 border-style:solid;
-border-color: #9370DB;
+border-color: #3f7f9b;
 border-top-color:transparent;
 border-width: 4px;
-background-color: #9370DB;
+background-color: #3f7f9b;
 border-radius:50%;
 -webkit-animation: spin .8s linear infinite;
 animation: spin .8s linear infinite;
 }
 
 nav .nav-wrapper {
-  background-color: #9370DB;
+  background-color: #3f7f9b;
 }
 
 #download {
-  background-color: #9370DB;
+  background-color: #3f7f9b;
 }
 
 #upload {
-  background-color: #9370DB;
+  background-color: #3f7f9b;
+}
+
+.btn {
+  background-color: #3f7f9b;
 }

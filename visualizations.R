@@ -21,7 +21,7 @@ pie_chart <- ggplot(data=pie_data, aes(x="", y=n, fill=q3))+
   geom_bar(width = 1, stat = "identity")+
   coord_polar("y", start=0)+
   labs(title = "", fill="", x="", y="") +
-  scale_fill_manual(values=c("#800080", "#DF73FF")) +
+  scale_fill_manual(values=c("#95B15A", "#EBEED1")) +
   blank_theme +
   theme(axis.text.x=element_blank()) +
   geom_text(aes(y = n/2 + c(0, cumsum(n)[-length(n)]), 
@@ -55,7 +55,7 @@ expectations_chart <- ggplot(expectations_data, aes(x=value, y=n, fill=value))+
   geom_bar(stat="identity")+
   facet_wrap(~ key)+
   labs(x="", fill="")+
-  scale_fill_manual(values=c("#9370DB", "#66023C","#DF73FF")) +
+  scale_fill_manual(values=c("#A8C273", "#EBEED1","#80BCBE")) +
   blank_theme +
   theme(axis.text.x=element_blank(),legend.position="bottom")+
   geom_text(label=expectations_data$n)
