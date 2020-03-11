@@ -1,0 +1,12 @@
+name: automated_visuals_qualtrics
+title: automated_visuals_qualtrics
+username:
+account: olga-sholderer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1933838
+bundleId: 2871095
+url: https://olga-sholderer.shinyapps.io/automated_visuals_qualtrics/
+when: 1583930609.93872
+asMultiple: FALSE
+asStatic: FALSE
